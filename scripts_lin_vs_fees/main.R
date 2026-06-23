@@ -1,4 +1,3 @@
-rm(list = ls())
 library(readxl)
 library(glmnet)
 source('ecoFunctions.R')
