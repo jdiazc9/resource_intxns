@@ -12,7 +12,7 @@ The `./data` directory contains experimental data (measurements of bacterial fit
 
 The `./scripts_lin_models` directory contains code to perform the analyses described in the main text:
 
--   `main.R` executes the main pipeline. In short, it loads the files in `./data` and performs the analyses described in the main text: splits each dataset into a training and a test set (with training fractions of varying sizes), uses the training set to train linear first-order linear models of the form
+-   `main.R` executes the main pipeline. In short, it loads the files in `./data` and performs the analyses described in the main text: it splits each dataset into a training and a test set (with training fractions of varying sizes), and uses the training set to train linear first-order linear models of the form
 
     $$
     \hat{f}(x) = f_0 + \sum_i f_i x_i
